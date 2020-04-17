@@ -73,7 +73,8 @@ nav {
   background-image: url("/img/background_main.jpg");
   background-repeat: no-repeat;
   height: 100%;
-  width: 1920px;
+  width: 100%;
+  max-width: 1920px;
   height: 752px;
   color: #ffffff;
 }
