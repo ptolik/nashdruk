@@ -70,7 +70,7 @@ nav {
 }
 
 .main {
-  background-image: url("img/background_main.jpg");
+  background-image: url("../img/background_main.jpg");
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
