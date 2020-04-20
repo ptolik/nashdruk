@@ -112,6 +112,7 @@ nav
    &:hover
       border-radius: 29px
       background-color: unset
+      transition-duration: 1000ms
       a
          color: #00a6eb
    .content
@@ -198,20 +199,39 @@ nav
       display: flex
       flex-direction: row
       flex-wrap: wrap
-      justify-content: space-between
+      justify-content: space-around
+
 
       .list_element
          width: 50%
          height: 25%
          display: flex
          .element_price
+            position: relative;
             color: #ffed00;
-            font-size: 44px;
+            flex-basis: 23%
+            font-size: 40px;
             font-weight: 400;
             margin: 0
-            margin-right: 51px
             padding: 0
+            text-align: center 
+            &::before 
+               content: "від"
+               font-size: 9px
+               color: #ffffff
+               font-weight: 100;
+               position: absolute;
+               left: 0px;
+            &::after
+               content: "грн"
+               font-size: 9px
+               color: #ffffff
+               font-weight: 100;
+               position: absolute;
+               right: -2px;
+               bottom: 32px;
          .wrap
+            margin-left: 26px
             .element_text
                font-weight: 100;
                font-size: 32px;
@@ -244,6 +264,7 @@ nav
       &:hover
          border-radius: 29px
          background-color: unset
+         transition-duration: 1000ms
          a
             color: #ffed00
       .content
