@@ -232,7 +232,7 @@ nav {
 }
 
 .materials .list {
-  width: 772px;
+  width: 860px;
   height: 312px;
   margin-top: 57px;
   display: flex;
@@ -264,8 +264,8 @@ nav {
   background-color: #ffed00;
   position: absolute;
   transform: rotate(-45deg);
-  left: 58px;
-  top: 37px;
+  left: 64px;
+  top: 35px;
 }
 
 .materials .list .list_element .element_price {
@@ -294,8 +294,8 @@ nav {
   color: #ffffff;
   font-weight: 100;
   position: absolute;
-  right: -4px;
-  bottom: 32px;
+  right: 0px;
+  bottom: 35px;
 }
 
 .materials .list .list_element .wrap {
