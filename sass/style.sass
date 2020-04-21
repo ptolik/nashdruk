@@ -1,14 +1,12 @@
 *
    font-family: Bahnschrift
 
-
 body, html
    height: 100%
-      
+
 body
    display: flex
    flex-direction: column
-
 
 header
    height: 65px
@@ -29,10 +27,9 @@ header
       text-decoration: none
       color: #000
 
-
 .main-nav
    display: flex
-   
+
 nav
    display: flex
    flex-grow: 1 0 auto
@@ -46,7 +43,6 @@ nav
    flex-direction: column
    justify-content: center
 
-
 .menu_link
    display: block
    padding: 10px
@@ -55,11 +51,13 @@ nav
    flex-shrink: 0
 
 .main-phone
+   display: flex
+   flex-direction: column
    flex-shrink: 0
-   text-align: right
+   align-items: flex-end
 
 .main
-   background-image: url("../img/background_main.jpg") 
+   background-image: url("../img/background_main.jpg")
    background-repeat: no-repeat
    height: 100%
    width: 100%
@@ -78,7 +76,6 @@ nav
       text-transform: uppercase
       margin: 0
       margin-top: 20
-   
 
 .main_text
    color: #ffffff
@@ -91,10 +88,10 @@ nav
    height: 58px
    border-radius: 29px
    background-color: #00a6eb
-   display: inline-block;
+   display: inline-block
    position: relative
    margin-top: 20px
-   border: 2px solid #00a6eb   
+   border: 2px solid #00a6eb
    a
       text-decoration: none
       color: #ffffff
@@ -117,7 +114,7 @@ nav
       flex: 1 0 auto
 
 .quote
-   background-image: url("../img/background_quote.jpg") 
+   background-image: url("../img/background_quote.jpg")
    background-repeat: no-repeat
    height: 100%
    width: 100%
@@ -125,12 +122,11 @@ nav
    height: 465px
    color: #ffffff
    position: relative
-   
 
 .blockquote
-   width: 595px;
-   height: 274px;
-   border: 2px solid #ffffff;
+   width: 595px
+   height: 274px
+   border: 2px solid #ffffff
    padding: 0
    margin: 0
    position: absolute
@@ -139,7 +135,7 @@ nav
    margin-right: -50%
    transform: translate(-50%, -50%)
    p
-      font-size: 29px;
+      font-size: 29px
 
       padding: 0
       margin: 0
@@ -161,8 +157,8 @@ nav
    background-color: #000000
    .dots
       display: flex
-      flex-direction: row  
-      width: 155px;
+      flex-direction: row
+      width: 155px
       justify-content: space-between
       .dot
          margin-top: 114px
@@ -202,28 +198,28 @@ nav
          height: 25%
          display: flex
          .element_price
-            position: relative;
-            color: #ffed00;
-            font-size: 40px;
+            position: relative
+            color: #ffed00
+            font-size: 40px
 
             margin: 0
             padding: 0
-            text-align: center 
+            text-align: center
             .topline
                height: 1px
                width: 35px
                background-color: #ffed00
-               transform: rotate(-45deg);
-               position: absolute;
-               left: -14px;
+               transform: rotate(-45deg)
+               position: absolute
+               left: -14px
                top: 5px
             .bottomline
                height: 1px
                width: 35px
                background-color: #ffed00
-               position: absolute;
-               transform: rotate(-45deg);
-               right: -17px;
+               position: absolute
+               transform: rotate(-45deg)
+               right: -17px
                top: 35px
             &::before
                content: "від"
@@ -238,35 +234,35 @@ nav
                font-size: 9px
                color: #ffffff
 
-               position: absolute;
-               right: -16px;
-               bottom: 35px;
+               position: absolute
+               right: -16px
+               bottom: 35px
 
          .wrap
             margin-left: 26px
             .element_text
 
-               font-size: 32px;
+               font-size: 32px
                color: #fff
-            .element_additional_text      
+            .element_additional_text
                color: #fff
 
-               font-size: 12px;
+               font-size: 12px
    .materials_button
       margin-top: 86px
       width: 344px
       height: 58px
       border-radius: 29px
       background-color: #ffed00
-      display: inline-block;
+      display: inline-block
       position: relative
       border: 2px solid #ffed00
       a
          text-decoration: none
          color: #000
-         font-size: 21px;
+         font-size: 21px
 
-         text-transform: uppercase;
+         text-transform: uppercase
          margin: 0
          position: absolute
          top: 50%
@@ -281,8 +277,6 @@ nav
             color: #ffed00
       .content
          flex: 1 0 auto
-   
-
 
 .footer
    display: flex
@@ -291,4 +285,3 @@ nav
    height: 65px
    color: #fff
    background-color: #000
-   
