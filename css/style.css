@@ -68,6 +68,7 @@ nav {
 
 .main-phone {
   flex-shrink: 0;
+  text-align: right;
 }
 
 .main {
@@ -82,7 +83,6 @@ nav {
 
 .main h1 {
   font-size: 50px;
-  line-height: 71.53px;
   text-transform: uppercase;
   margin: 0;
   padding: 0;
@@ -91,7 +91,6 @@ nav {
 .main h2 {
   color: #ffffff;
   font-size: 32px;
-  line-height: 57.53px;
   text-transform: uppercase;
   margin: 0;
   margin-top: 20;
@@ -211,7 +210,6 @@ nav {
   margin-top: 38px;
   color: #fff;
   font-size: 53px;
-  line-height: 28.44px;
   width: 244px;
   height: 49px;
 }
@@ -227,13 +225,13 @@ nav {
 }
 
 .materials .list {
-  width: 860px;
+  max-width: 692px;
   height: 312px;
   margin-top: 57px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  margin-left: 50px;
 }
 
 .materials .list .list_element {
