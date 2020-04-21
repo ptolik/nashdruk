@@ -231,7 +231,7 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: 50px;
+  margin-left: 70px;
 }
 
 .materials .list .list_element {
