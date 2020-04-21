@@ -91,7 +91,6 @@ nav {
 .main h2 {
   color: #ffffff;
   font-size: 32px;
-  font-weight: 400;
   line-height: 57.53px;
   text-transform: uppercase;
   margin: 0;
@@ -101,7 +100,6 @@ nav {
 .main_text {
   color: #ffffff;
   font-size: 27px;
-  font-weight: 300;
   margin-top: 106px;
 }
 
@@ -120,7 +118,6 @@ nav {
   text-decoration: none;
   color: #ffffff;
   font-size: 21px;
-  font-weight: 400;
   text-transform: uppercase;
   margin: 0;
   position: absolute;
@@ -170,7 +167,6 @@ nav {
 
 .blockquote p {
   font-size: 29px;
-  font-weight: 100;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -215,7 +211,6 @@ nav {
   margin-top: 38px;
   color: #fff;
   font-size: 53px;
-  font-weight: 700;
   line-height: 28.44px;
   width: 244px;
   height: 49px;
@@ -251,7 +246,6 @@ nav {
   position: relative;
   color: #ffed00;
   font-size: 40px;
-  font-weight: 400;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -281,7 +275,6 @@ nav {
   content: "від";
   font-size: 9px;
   color: #ffffff;
-  font-weight: 100;
   position: absolute;
   left: -12px;
   top: -3px;
@@ -291,7 +284,6 @@ nav {
   content: "грн";
   font-size: 9px;
   color: #ffffff;
-  font-weight: 100;
   position: absolute;
   right: -16px;
   bottom: 35px;
@@ -302,14 +294,12 @@ nav {
 }
 
 .materials .list .list_element .wrap .element_text {
-  font-weight: 100;
   font-size: 32px;
   color: #fff;
 }
 
 .materials .list .list_element .wrap .element_additional_text {
   color: #fff;
-  font-weight: 100;
   font-size: 12px;
 }
 
@@ -328,7 +318,6 @@ nav {
   text-decoration: none;
   color: #000;
   font-size: 21px;
-  font-weight: 400;
   text-transform: uppercase;
   margin: 0;
   position: absolute;
