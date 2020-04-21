@@ -245,38 +245,36 @@ nav {
   width: 50%;
   height: 25%;
   display: flex;
-  position: relative;
-}
-
-.materials .list .list_element .topline {
-  height: 1px;
-  width: 35px;
-  background-color: #ffed00;
-  transform: rotate(-45deg);
-  position: absolute;
-  left: -3px;
-  top: 7px;
-}
-
-.materials .list .list_element .bottomline {
-  height: 1px;
-  width: 35px;
-  background-color: #ffed00;
-  position: absolute;
-  transform: rotate(-45deg);
-  left: 64px;
-  top: 35px;
 }
 
 .materials .list .list_element .element_price {
   position: relative;
   color: #ffed00;
-  flex-basis: 23%;
   font-size: 40px;
   font-weight: 400;
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+.materials .list .list_element .element_price .topline {
+  height: 1px;
+  width: 35px;
+  background-color: #ffed00;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: -14px;
+  top: 5px;
+}
+
+.materials .list .list_element .element_price .bottomline {
+  height: 1px;
+  width: 35px;
+  background-color: #ffed00;
+  position: absolute;
+  transform: rotate(-45deg);
+  right: -17px;
+  top: 35px;
 }
 
 .materials .list .list_element .element_price::before {
@@ -285,7 +283,8 @@ nav {
   color: #ffffff;
   font-weight: 100;
   position: absolute;
-  left: 0px;
+  left: -12px;
+  top: -3px;
 }
 
 .materials .list .list_element .element_price::after {
@@ -294,7 +293,7 @@ nav {
   color: #ffffff;
   font-weight: 100;
   position: absolute;
-  right: 0px;
+  right: -16px;
   bottom: 35px;
 }
 

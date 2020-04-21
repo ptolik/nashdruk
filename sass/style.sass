@@ -204,47 +204,47 @@ nav
          width: 50%
          height: 25%
          display: flex
-         position: relative;
-         .topline
-            height: 1px
-            width: 35px
-            background-color: #ffed00
-            transform: rotate(-45deg);
-            position: absolute;
-            left: -3px;
-            top: 7px
-         .bottomline
-            height: 1px
-            width: 35px
-            background-color: #ffed00
-            position: absolute;
-            transform: rotate(-45deg);
-            left: 64px;
-            top: 35px
          .element_price
             position: relative;
             color: #ffed00;
-            flex-basis: 23%
             font-size: 40px;
             font-weight: 400;
             margin: 0
             padding: 0
             text-align: center 
-            &::before 
+            .topline
+               height: 1px
+               width: 35px
+               background-color: #ffed00
+               transform: rotate(-45deg);
+               position: absolute;
+               left: -14px;
+               top: 5px
+            .bottomline
+               height: 1px
+               width: 35px
+               background-color: #ffed00
+               position: absolute;
+               transform: rotate(-45deg);
+               right: -17px;
+               top: 35px
+            &::before
                content: "від"
                font-size: 9px
                color: #ffffff
-               font-weight: 100;
-               position: absolute;
-               left: 0px;
+               font-weight: 100
+               position: absolute
+               left: -12px
+               top: -3px
             &::after
                content: "грн"
                font-size: 9px
                color: #ffffff
                font-weight: 100;
                position: absolute;
-               right: 0px;
+               right: -16px;
                bottom: 35px;
+
          .wrap
             margin-left: 26px
             .element_text
